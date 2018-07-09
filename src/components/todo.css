@@ -1,0 +1,51 @@
+.todo-container {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.todo-item {
+    background-color: #222;
+    color: #eee;
+    padding: 10px 5px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    transition: 200ms linear;
+}
+
+.todo-item:hover {
+    background-color: #000;
+}
+
+.todo-item .todo {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-left: 50px;
+}
+
+.control {
+    position: relative;
+    top: -4px;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.delete, .done, .done-alt {
+    padding: 10px;
+    transition: 200ms linear;    
+}
+.delete {
+    background-color: rgb(163, 1, 1);
+}
+.done {
+   background-color: #333;
+}
+.done-alt {
+    background-color: rgb(2, 95, 138);
+}
+
+.delete:hover {
+    background-color: red;
+}
+.done:hover {
+    background-color: rgb(5, 176, 255);
+}
